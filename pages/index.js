@@ -34,7 +34,9 @@ export default function Home({profile, project}) {
                        <Button bg={'blue.400'} color="white" px={"40px"}  rounded="full" >Follow</Button>
                     </a>
                   </SimpleGrid>
+
               </Flex>
+              
               <SimpleGrid boxShadow='base' rounded={"xl"}  p="10px" gap={"10px"} columns={[2,3,3]} >
                   <Button bg={"teal.200"} color="gray.600" fontSize="sm" fontWeight={"bold"}>HTML</Button>
                   <Button bg={"teal.200"} color="gray.600" fontSize="sm" fontWeight={"bold"}>CSS</Button>
