@@ -28,7 +28,7 @@ export default function Home({profile, project}) {
                   <Text textAlign={"center"} fontSize='md'>{profile.bio}</Text>
                   <SimpleGrid columns={[1,1,2]} gap="16px">
                     <a href='https://drive.google.com/file/d/1LbCRoGDnppvKj5Z4SWh2CSh3xDv0lPmt/view?usp=sharing'>
-                    <Button bg={"green.400"} color="white" px={"40px"} rounded="full" >Resume</Button>
+                     <Button bg={"green.400"} color="white" px={"40px"} rounded="full" >Resume</Button>
                     </a>
                     <a href='https://github.com/Rashmigautam16'>
                        <Button bg={'blue.400'} color="white" px={"40px"}  rounded="full" >Follow</Button>
